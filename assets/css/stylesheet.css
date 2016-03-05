@@ -1,0 +1,174 @@
+@media only screen and (max-width: 480px) {
+    /*body { background-color: gray; }*/
+    p { font-size: 0.5em; }
+    h1 { font-size: 2.5em; }
+	}
+@media only screen and (min-width: 481px) {
+    /*body { background-color: black; }*/
+    p { font-size: 1em; }
+    h1 { font-size: 4em; }
+	}
+@media only screen and (min-width: 1024px) {
+ /*   body { background-color: black; }*/
+    p { font-size: 2em; }
+    h1 { font-size: 5em; }
+	}
+/*index view page css*/
+#index_body {
+		background-image: url('../img/celestial_body3.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: inline-block;
+		padding: 0px 0px 0px 20px;
+		}
+		#blue {
+			color: blue;
+		}
+		#index_h1 {
+			color: gray;
+		}
+		#blue:hover {
+			color: yellow;
+			border-radius: 20px;
+			box-shadow: 0px 0px 50px 10px white;
+			opacity: .5;
+			/*background-color: white;*/
+		}
+		#purple {
+			color: #A215BD;
+		}
+		#purple:hover {
+			color: yellow;
+			border-radius: 20px;
+			border-collapse: collapse;
+			box-shadow: 0px 0px 50px 10px white;
+			opacity: .5;
+			/*background-color: white;*/
+		}
+		#register {
+			margin-right: 50px;
+			margin-bottom: 50px;
+			padding: 25px;
+			border: 10px groove #A215BD;
+			border-radius: 10px;
+			width: 350px;
+			display: inline-block;
+			color: white;
+			border-radius: 20px;
+		}
+		#register label {
+			text-align: right;
+			display: inline-block;
+			width: 90px;
+			margin-right: 5px;
+		}
+		#register input {
+			display: inline-block;
+			color:#A215BD;
+			vertical-align: center;
+			align-items: right;
+		}
+		#reg_btn {
+			margin-top: 20px;
+			margin-left: 195px;
+			border-radius: 5px;
+			border:groove 4px #A215BD;
+			background: none;
+			color: #A215BD;
+			width: 80px;
+		}
+		#reg_btn:hover {
+			color: yellow;
+			border:groove 4px yellow;
+		}
+		#login {
+			padding: 25px;
+			border: 5px double blue;
+			border-radius: 10px;
+			width: 350px;
+			display: inline-block;
+			color: white;
+			border-radius: 20px;
+			vertical-align: top;
+		}
+		#login label {
+			text-align: right;
+			display: inline-block;
+			width: 80px;
+			margin-right: 5px;
+		}
+		#login input {
+			display: inline-block;
+			color:blue;
+			vertical-align: center;
+			align-items: right;
+		}
+		#login_btn {
+			margin-top: 20px;
+			margin-left: 185px;
+			border-radius: 5px;
+			border:double 3px blue;
+			background: none;
+			color: #D91129;
+			width: 80px;
+		}
+		#login_btn:hover {
+			color: yellow;
+			border:double 3px yellow;
+		}
+		#index_reset_button {
+			margin-top: 50px;
+			margin-left: 200px;
+			border-radius: 5px;
+			border:groove 2px #D91129;
+			background: none;
+			color: #D91129;
+			width: 80px;
+		}
+		#index_reset_button:hover {
+			background-color: red;
+			color: black;
+			box-shadow: 0px 0px 50px 10px red;
+		}
+		.flash {
+			color: red;
+		}
+/*login view page css*/
+#login_body {
+		background-image: url('../img/celestial_body1.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: inline-block;
+		}
+		#log_out_btn {
+			margin-top: 50px;
+			margin-left: 200px;
+			border-radius: 5px;
+			border:groove 3px white;
+			background: none;
+			color: #D91129;
+			width: 80px;
+		}
+		#log_out_btn:hover {
+			border-radius: 5px;
+			/*border:solid 2px #D91129;*/
+			box-shadow: 0px 0px 20px 5px #39ED21; 
+			background-color: black;
+			color: #39ED21;
+		}
+		#login_body_h1 {
+			color: #39ED21;
+		}
+		#login_body td {
+			color: white;
+			padding: 5px;
+		}
+		#delete_entry {
+			color: purple;
+			text-decoration: none;
+		}
+		#delete_entry:hover {
+			color: #39ED21;
+			text-decoration: none;
+		}
+		
